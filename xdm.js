@@ -1,0 +1,74 @@
+var xdm = {
+application:{
+  id:"",
+  launches:{
+    value:0
+  }},
+commerce:{
+  checkouts:{
+    id:"",
+    value:0},
+  order:{
+    currencyCode:"",
+    purchaseID:""},
+  productListAdds:{
+    id:"",
+    value:0},
+  productListOpens:{
+      id:"",
+      value:0},
+  productListRemovals:{
+      id:"",
+      value:0},
+  productListViews:{
+      id:"",
+      value:0},
+  productViews:{
+      id:"",
+      value:0},
+  purchases:{
+    value:0}},
+device:{
+  colorDepth:"",
+  screenHeight:"",
+  screenWidth:""},
+environment:{
+  browserDetails:{
+      acceptLanguage:"",
+      cookiesEnabled:"",
+      javaEnabled:"",
+      javaScriptVersion:"",
+      userAgent:"",
+      viewportHeight:"",
+      viewportWidth:""},
+  connectionType:""},
+identityMap:{
+  ECID:{
+    id:""}},
+marketing:{
+  trackingCode:""},
+placeContext:{
+  geo:{
+      latitude:"",
+      longitude:"",
+      postalCode:"",
+      stateProvince:""}},
+productlistitems:{
+  lineitemid:"",
+  name:"",
+  pricetotal:"",
+  quantity:""},
+web:{
+  webInteraction:{
+      name:"",
+      type:"",
+      URL:""},
+  webPageDetails:{
+      errorPage:"",
+      homePage:"",
+      name:"",
+      server:"",
+      siteSection:"",
+      URL:""},
+  webReferrer:{
+      URL:""}}}
